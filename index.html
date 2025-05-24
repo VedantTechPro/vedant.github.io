@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boss's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #007bff;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #0056b3;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    section h2 {
+      border-bottom: 2px solid #007bff;
+      padding-bottom: 10px;
+    }
+
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+    footer {
+      background-color: #e0e0e0;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      header, nav, section, footer {
+        padding: 10px;
+        text-align: center;
+      }
+
+      nav {
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Boss's Website</h1>
+    <p>Mechanical Engineer | Coder | Explorer</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a mechanical engineering student who loves coding, building things, and learning new technologies. I enjoy working on Python, Arduino, and web projects.</p>
+  </section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+    <ul>
+      <li>Python File Converter</li>
+      <li>Weather Forecast Web App</li>
+      <li>Radar System with Arduino</li>
+      <li>Biodiesel Production Analysis</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: your.email@example.com</p>
+    <p>GitHub: <a href="https://github.com/yourusername" target="_blank">@yourusername</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Boss | All rights reserved</p>
+  </footer>
+</body>
+</html>
